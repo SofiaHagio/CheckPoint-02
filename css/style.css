@@ -33,9 +33,9 @@
 }
  
 .hero-conteudo {
+    padding: var(--padding-secao);
     display: flex;
     align-items: center;
-    padding: var(--padding-secao);
 }
  
 .hero-texto {
@@ -48,8 +48,8 @@
 .hero-texto h4 {
     font-family: var(--titulo);
     color: var(--branco);
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
 }
  
 .hero-texto h1 {
@@ -68,8 +68,8 @@
 .botoes {
     display: flex;
     align-items: center;
-    gap: 16px;
     margin-top: 8px;
+    gap: 16px;
 }
 
 .btn1 {
@@ -78,7 +78,7 @@
     color: var(--branco);
     font-size: 0.8rem;
     font-weight: 500;
-    letter-spacing: 0.1em;
+    letter-spacing: 0.1rem;
     padding: 14px 28px;
 }
  
@@ -88,8 +88,8 @@
     color: var(--laranja);
     font-size: 0.8rem;
     font-weight: 500;
-    letter-spacing: 0.1em;
-    padding: 13px 28px;
+    letter-spacing: 0.1rem;
+    padding: 14px 28px;
 }
  
 .hero-img {
@@ -99,8 +99,8 @@
 }
  
 .hero-img img {
-    width: 100%;
     height: 380px;
+    width: 100%;
     object-fit: cover;
 }
  
@@ -114,10 +114,10 @@
 }
  
 .container-conteudo {
+    padding: var(--padding-secao);
     display: flex;
     align-items: center;
     flex-direction: column;
-    padding: var(--padding-secao);
     gap: 40px;
 }
  
@@ -125,13 +125,13 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 10px;
+    gap: 20px;
 }
  
 .container-texto h4 {
     font-family: var(--titulo);
     color: var(--branco);
-    font-size: 0.75rem;
+    font-size: 0.8rem;
     letter-spacing: 0.2em;
  }
  
@@ -148,32 +148,32 @@
  
 .card-item {
     background-color: var(--laranja);
-    display: flex;
-    flex: 1;
-    flex-direction: column;
-    gap: 15px;
     padding: var(--padding-card);
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    gap: 15px;
 }
  
 .card-item img {
-    width: 100%;
     height: 180px;
+    width: 100%;
     object-fit: cover;
 }
  
-.card-t {
+.card-item h3 {
     font-family: var(--corpo);
     color: var(--preto);
     font-size: 1rem;
     text-align: center;
 }
  
-.card-p {
+.card-item p {
     font-family: var(--corpo);
     color: var(--branco);
-    font-size: 0.85rem;
-    line-height: 1.65;
+    font-size: 0.8rem;
     text-align: center;
+    line-height: 1.65;
 }
  
 .sobre {
@@ -186,24 +186,24 @@
 }
  
 .sobre-conteudo {
+    padding: var(--padding-secao);
     display: flex;
     align-items: center;
-    padding: var(--padding-secao);
-    width: 100%;
+    width: 100%
 }
  
 .sobre-texto {
     display: flex;
     flex-direction: column;
     flex: 1;
-    gap: 16px;
+    gap: 20px;
 }
  
 .sobre-texto h4 {
     font-family: var(--titulo);
     color: var(--branco);
-    font-size: 0.75rem;
-    letter-spacing: 0.2em;
+    font-size: 0.8rem;
+    letter-spacing: 0.2rem;
 }
  
 .sobre-texto h1 {
@@ -215,9 +215,9 @@
 .sobre-texto p {
     font-family: var(--corpo);
     color: var(--branco);
-    font-size: 1em;
-    line-height: 1.65;
+    font-size: 1rem;
     max-width: 460px;
+    line-height: 1.65;
 }
  
 .sobre-lista {
@@ -241,8 +241,8 @@
 }
  
 .sobre-img img {
-    width: 500px;
-    height: 400px;
+    width: 100%;
+    height: 380px;
     object-fit: cover;
 }
  
@@ -259,5 +259,5 @@
     font-family: var(--corpo);
     color: var(--laranja);
     font-size: 1rem;
-    letter-spacing: 0.05em;
+    letter-spacing: 0.1rem;
 }
