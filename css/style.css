@@ -5,6 +5,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
 }
 
 :root {
@@ -23,9 +24,9 @@
 }
 
 .hero {
-    min-height: var(--altura);
-    width: 100%;
     background-color: var(--laranja);
+    height: var(--altura);
+    width: var(--largura);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -34,43 +35,33 @@
 .hero-conteudo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
-    width: 100%;
-    max-width: var(--largura);
     padding: var(--padding-secao);
-    gap: 48px;
 }
  
 .hero-texto {
     display: flex;
     flex-direction: column;
-    gap: 20px;
     flex: 1;
+    gap: 20px;
 }
  
 .hero-texto h4 {
     font-family: var(--titulo);
-    font-size: 0.75rem;
-    font-weight: 500;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
     color: var(--branco);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
 }
  
 .hero-texto h1 {
     font-family: var(--titulo);
-    font-size: 3rem;
-    font-weight: 800;
-    line-height: 1.15;
     color: var(--preto);
+    font-size: 3rem;
 }
  
 .hero-texto p {
     font-family: var(--corpo);
-    font-size: 1rem;
-    font-weight: 300;
-    line-height: 1.7;
     color: var(--branco);
+    font-size: 1rem;
     max-width: 440px;
 }
  
@@ -82,42 +73,41 @@
 }
 
 .btn1 {
+    background-color: var(--preto);
     font-family: var(--corpo);
+    color: var(--branco);
     font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.1em;
     padding: 14px 28px;
-    background-color: var(--preto);
-    color: var(--branco);
 }
  
 .btn2 {
+    background-color: var(--branco);
     font-family: var(--corpo);
+    color: var(--laranja);
     font-size: 0.8rem;
     font-weight: 500;
     letter-spacing: 0.1em;
     padding: 13px 28px;
-    background-color: var(--branco);
-    color: var(--laranja);
 }
  
 .hero-img {
-    flex: 1;
     display: flex;
+    flex: 1;
     justify-content: flex-end;
 }
  
 .hero-img img {
     width: 100%;
-    max-width: 500px;
     height: 380px;
     object-fit: cover;
 }
  
 .container {
-    min-height: 100dvh;
-    width: 100%;
     background-color: var(--preto);
+    height: var(--altura);
+    width: var(--largura);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -125,10 +115,8 @@
  
 .container-conteudo {
     display: flex;
-    flex-direction: column;
     align-items: center;
-    width: 100%;
-    max-width: var(--largura);
+    flex-direction: column;
     padding: var(--padding-secao);
     gap: 40px;
 }
@@ -138,37 +126,32 @@
     flex-direction: column;
     align-items: center;
     gap: 10px;
-    text-align: center;
 }
  
 .container-texto h4 {
     font-family: var(--titulo);
-    font-size: 0.75rem;
-    font-weight: 500;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
     color: var(--branco);
-}
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
+ }
  
 .container-texto h1 {
     font-family: var(--titulo);
-    font-size: 2.2rem;
-    font-weight: 700;
     color: var(--laranja);
+    font-size: 3rem;
 }
  
 .cards {
     display: flex;
-    gap: 24px;
-    width: 100%;
+    gap: 25px;
 }
  
 .card-item {
-    display: flex;
-    flex-direction: column;
-    gap: 14px;
-    flex: 1;
     background-color: var(--laranja);
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    gap: 15px;
     padding: var(--padding-card);
 }
  
@@ -180,22 +163,23 @@
  
 .card-t {
     font-family: var(--corpo);
-    font-size: 1rem;
-    font-weight: 700;
     color: var(--preto);
+    font-size: 1rem;
+    text-align: center;
 }
  
 .card-p {
-    font-size: 0.875rem;
-    font-weight: 300;
-    line-height: 1.65;
+    font-family: var(--corpo);
     color: var(--branco);
+    font-size: 0.85rem;
+    line-height: 1.65;
+    text-align: center;
 }
  
 .sobre {
-    min-height: 100dvh;
-    width: 100%;
     background-color: var(--laranja);
+    height: var(--altura);
+    width: var(--largura);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -204,78 +188,68 @@
 .sobre-conteudo {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    padding: var(--padding-secao);
     width: 100%;
-    max-width: var(--largura);
-    padding: 0 var(--padding-secao);
-    gap: 64px;
 }
  
 .sobre-texto {
     display: flex;
     flex-direction: column;
-    gap: 16px;
     flex: 1;
+    gap: 16px;
 }
  
 .sobre-texto h4 {
     font-family: var(--titulo);
-    font-size: 0.75rem;
-    font-weight: 500;
-    letter-spacing: 0.2em;
-    text-transform: uppercase;
     color: var(--branco);
+    font-size: 0.75rem;
+    letter-spacing: 0.2em;
 }
  
 .sobre-texto h1 {
     font-family: var(--titulo);
-    font-size: 2.2rem;
-    font-weight: 700;
-    line-height: 1.2;
     color: var(--preto);
+    font-size: 3rem;
 }
  
 .sobre-texto p {
-    font-size: 0.95rem;
-    font-weight: 300;
-    line-height: 1.7;
+    font-family: var(--corpo);
     color: var(--branco);
+    font-size: 1em;
+    line-height: 1.65;
     max-width: 460px;
 }
  
 .sobre-lista {
     display: flex;
     flex-direction: column;
-    gap: 12px;
     margin-top: 8px;
+    gap: 12px;
 }
  
 .sobre-item {
-    display: flex;
-    align-items: center;
-    gap: 12px;
-    font-size: 0.9rem;
-    font-weight: 400;
+    font-family: var(--corpo);
     color: var(--branco);
+    font-size: 1rem;
+    display: flex;
 }
  
 .sobre-img {
-    flex: 1;
     display: flex;
+    flex: 1;
     justify-content: flex-end;
 }
  
 .sobre-img img {
-    width: 100%;
-    max-width: 500px;
+    width: 500px;
     height: 400px;
     object-fit: cover;
 }
  
 .rodape {
-    width: 100%;
-    height: 100px;
     background-color: var(--preto);
+    height: 100px;
+    width: var(--largura);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -283,8 +257,7 @@
  
 .rodape-texto {
     font-family: var(--corpo);
-    font-size: 0.875rem;
-    font-weight: 400;
     color: var(--laranja);
+    font-size: 1rem;
     letter-spacing: 0.05em;
 }
