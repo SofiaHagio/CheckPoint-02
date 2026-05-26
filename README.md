@@ -50,13 +50,13 @@ A página conta com âncoras internas para navegação entre as seções:
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/SofiaHagio/CheckPoint-02.git
+git clone https://github.com/SofiaHagio/Claude.git
 ```
 
 ### 2. Acesse a pasta
 
 ```bash
-cd CheckPoint-02
+cd Claude
 ```
 
 ### 3. Abra o site
